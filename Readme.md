@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Даурен Альжанов](https://up.htmlacademy.ru/htmlcss/14/user/235829).
-* Наставник: [Ольга Одноколова] (https://up.htmlacademy.ru/htmlcss/14/user/38936).
+* Наставник: [Ольга UA Одноколова] (https://up.htmlacademy.ru/htmlcss/14/user/38936).
 
 ---
 
