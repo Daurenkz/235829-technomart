@@ -18,4 +18,59 @@ h2 {
     color: #32425c;
     font-family: "Cuprum";
 }
-    
+header {
+    background-color: #f1f5f7;
+    width: 100%;
+
+}
+.header-top {
+    background-color: #293449;
+    width: 100%;
+    min-height: 60px;
+    display: inline-block;
+}
+.service {
+    background-color: #f1f5f7;
+    width: 100%;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    background-color: #32425c;
+    width: auto;
+    margin: 0 auto;
+    float: left;
+    width: 940px;
+}
+.block {
+    width: 300px;
+    height: 123px;
+}
+.block1{
+    background-color: #f6b22d; 
+}
+.block2{
+    background-color: #4aafde;
+}
+.block3{
+    background-color: #cc79d1;
+}
+.block4{
+    background-color: #85d179;
+}
+.block5{
+    background-color: #f6b22d;
+}
+.rubric {
+    background-color: #f7f3ec;
+    width: auto;
+    height: 89px;
+    font-family: "Cuprum";
+}
+.clearfix::after {
+  content: "";
+  display: table;
+    clear: both;
+}
