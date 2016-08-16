@@ -30,46 +30,6 @@ header {
     min-height: 60px;
     display: inline-block;
 }
-.service {
-    background-color: #f1f5f7;
-    width: 100%;
-}
-.container {
-    width: 940px;
-    margin: 0 auto;
-    font-size: 0;
-}
-nav {
-    background-color: #32425c;
-    margin: 0 auto;
-    width: 940px;
-    
-}
-.block {
-    width: 300px;
-    min-height: 123px;
-}
-.block1{
-    background-color: #f6b22d; 
-}
-.block2{
-    background-color: #4aafde;
-}
-.block3{
-    background-color: #cc79d1;
-}
-.block4{
-    background-color: #85d179;
-}
-.block5{
-    background-color: #f6b22d;
-}
-.rubric {
-    background-color: #f7f3ec;
-    width: auto;
-    height: 89px;
-    font-family: "Cuprum";
-}
 .logo {
     display: inline-block;
 }
@@ -96,12 +56,83 @@ nav {
     font-size: 21px;
     color: #293449;
 }
+.service {
+    background-color: #f1f5f7;
+    width: 100%;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+    font-size: 0;
+}
+nav {
+    background-color: #32425c;
+    margin-right: 59px;
+    width: 940px;
+    
+}
+nav li {
+    margin-left: 50px;
+}
+.block {
+    width: 300px;
+    min-height: 123px;
+}
+.block>p {
+    font-size: 24px;
+}
+.block1{
+    background-color: #f6b22d; 
+    float: left;
+    margin-right: 20px;
+}
+.block2{
+    background-color: #4aafde;
+    float: left;
+    margin-right: 20px;
+}
+.block3{
+    background-color: #cc79d1;
+    float: right;
+}
+.block4{
+    background-color: #85d179;
+    float: left;
+    margin-top: 20px;
+}
+.block5{
+    background-color: #f6b22d;
+}
+.product {
+    display: inline-block;
+    margin-top: 53px;
+}
+.rubric {
+    background-color: #f7f3ec;
+    width: auto;
+    height: 89px;
+    font-family: "Cuprum";
+}
+.products {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+.products li{
+    border: 1px solid #f7f3ec;
+    padding: 10px;
+    margin-left: 10px;    
+}
+.manufacturers li {
+    margin-left: 10px;
+    padding: 20px;
+    border: 1px solid #f7f3ec;
+}
 p {
     font-size: 14px;
     margin: 0;
 }
-.user block {
-    width: 300px;
+.user_block {
     font-size: 21px;
     display: inline-block;
     margin-left: 50px;
@@ -114,5 +145,25 @@ ul {
 }
 li {
     display: inline-block;
-    margin-left: 60px;
+    
+}
+.manufacturers {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.cap {
+    display: inline-block;
+    margin-top: 68px;
+}
+.slider2 {
+    min-width: 240px;
+    min-height: 142px;
+    font-size: 21px;
+    display: inline-block;
+}
+.company {
+    font-size: 13px;
+    color: black;
+    width: 520px;
+    float: left;
 }
