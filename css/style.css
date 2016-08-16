@@ -4,6 +4,7 @@ body {
     color: #ffffff;
     font-weight: bold;
     font-family: "Cuprum";
+    margin: 0;
 }
 h1 {
     font-size: 14px;
@@ -36,17 +37,17 @@ header {
 .container {
     width: 940px;
     margin: 0 auto;
+    font-size: 0;
 }
 nav {
     background-color: #32425c;
-    width: auto;
     margin: 0 auto;
-    float: left;
     width: 940px;
+    
 }
 .block {
     width: 300px;
-    height: 123px;
+    min-height: 123px;
 }
 .block1{
     background-color: #f6b22d; 
@@ -69,8 +70,49 @@ nav {
     height: 89px;
     font-family: "Cuprum";
 }
-.clearfix::after {
-  content: "";
-  display: table;
-    clear: both;
+.logo {
+    display: inline-block;
+}
+.search {
+    display: inline-block;
+    font-size: 17px;
+}
+.order {
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 150px;
+}
+.descritpion {
+    display: inline-block;
+    width: 190px;
+    margin: 50px 0 50px 50px;
+}
+.contacs {
+    display: inline-block;
+    margin-left: 40px;
+}
+.number {
+    display: inline-block;
+    font-size: 21px;
+    color: #293449;
+}
+p {
+    font-size: 14px;
+    margin: 0;
+}
+.user block {
+    width: 300px;
+    font-size: 21px;
+    display: inline-block;
+    margin-left: 50px;
+}
+ul {
+    font-size: 17px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin-left: 60px;
 }
