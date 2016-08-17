@@ -203,6 +203,24 @@ li {
 .about-company {
     min-height: 526px;
 }
+.transport li {
+    font-size: 20px;
+    display: table;
+}
+.map {
+    float: right;
+    font-size: 16px;
+    width: 300px;
+}
+a.btn-company {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 16px;
+}
+a.btn-lost {
+    margin-top: 40px;
+    display: inline-block;
+}
 .footer-top {
     background-color: #32425c;
     min-height: 194px;
@@ -225,8 +243,13 @@ li {
     float: right;
     padding-left: 30px;
 }
+.logo-footer {
+    float: left;
+}
+
 .footer-bottom {
     background-color: #293449;
+    min-height: 107px;
 }
 section.footer-year {
     float: left;
