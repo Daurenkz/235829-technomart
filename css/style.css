@@ -200,3 +200,9 @@ li {
     width: 520px;
     float: left;
 }
+.footer-top {
+    background-color: #32425c;
+}
+.footer-bottom {
+    background-color: #293449;
+}
