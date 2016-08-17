@@ -30,6 +30,9 @@ header {
     min-height: 60px;
     display: inline-block;
 }
+.header-bottom {
+    min-height: 277px;
+}
 .logo {
     display: inline-block;
 }
@@ -74,9 +77,13 @@ nav {
 nav li {
     margin-left: 50px;
 }
+.main-show {
+    margin-top: 60px;
+}
 .block {
     width: 300px;
     min-height: 123px;
+    float: left;
 }
 .block>p {
     font-size: 24px;
@@ -95,13 +102,21 @@ nav li {
     background-color: #cc79d1;
     float: right;
 }
+.slider {
+    float: left;
+    min-width: 622px;
+    min-height: 266px;
+    margin-top: 20px;
+}
 .block4{
     background-color: #85d179;
-    float: left;
+    float: right;
     margin-top: 20px;
 }
 .block5{
     background-color: #f6b22d;
+    float: right;
+    margin-top: 20px;
 }
 .product {
     display: inline-block;
