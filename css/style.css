@@ -200,9 +200,45 @@ li {
     width: 520px;
     float: left;
 }
+.about-company {
+    min-height: 526px;
+}
 .footer-top {
     background-color: #32425c;
+    min-height: 194px;
+}
+.more-navigation {
+    float: right;
+}
+.more-navigation li {
+    font-size: 14px;
+    display: table-cell;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.other-navigation {
+    float: right;
+    min-width: 560px;
+}
+.other-navigation li {
+    font-size: 20px;
+    float: right;
+    padding-left: 30px;
 }
 .footer-bottom {
     background-color: #293449;
 }
+section.footer-year {
+    float: left;
+}
+section.footer-social {
+    float: left;
+    min-width: 130px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+section.footer-copyright {
+    float: right;
+    font-size: 16px;
+    min-width: 150px;
+    min-height: 50px;
