@@ -76,6 +76,7 @@ nav {
 }
 nav li {
     margin-left: 50px;
+    font-size: 16px;
 }
 .main-show {
     margin-top: 60px;
@@ -122,26 +123,40 @@ nav li {
     display: inline-block;
     margin-top: 53px;
 }
-.rubric {
+.top-product {
     background-color: #f7f3ec;
-    width: auto;
-    height: 89px;
+    min-width: 940px;
+    min-height: 90px;
     font-family: "Cuprum";
+}
+.rubric {
+    float: left;
+    margin: 35px 0 35px 30px;
 }
 .products {
     font-size: 18px;
     color: black;
     margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 20px;
 }
 .products li{
     border: 1px solid #f7f3ec;
-    padding: 10px;
-    margin-left: 10px;    
+    padding: 5px;
+    margin-left: 3px;
+    vertical-align: top;
+    min-width: 220px;
+    min-height: 318px;
+    text-align: center;   
 }
 .manufacturers li {
-    margin-left: 10px;
-    padding: 20px;
     border: 1px solid #f7f3ec;
+    vertical-align: top;
+    min-width: 220px;
+    min-height: 95px;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    padding-top: 50px;
 }
 p {
     font-size: 14px;
@@ -153,7 +168,7 @@ p {
     margin-left: 50px;
 }
 ul {
-    font-size: 17px;
+    font-size: 0;
     margin: 0;
     list-style: none;
     padding: 0;
@@ -167,14 +182,17 @@ li {
     margin-bottom: 50px;
 }
 .cap {
-    display: inline-block;
     margin-top: 68px;
+    float: left;
+    min-width: 400px;
+    margin-right: 500px;
 }
 .slider2 {
     min-width: 240px;
     min-height: 142px;
     font-size: 21px;
-    display: inline-block;
+    float: left;
+    margin-top: 40px;
 }
 .company {
     font-size: 13px;
