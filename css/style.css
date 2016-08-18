@@ -343,6 +343,9 @@ h2.name-top {
     height: 88px;
     margin-bottom: 20px;
 }
+.page-main {
+    margin-bottom: 50px;
+}
 .page-main::after {
     content: "";
     display: table;
@@ -387,7 +390,7 @@ form.filter {
     font-size: 16px;
 }
 .about-product {
-    display: inline-block;
+    background: #f2f6f8;
 }
 .sorting {
     font-size: 16px;
@@ -441,4 +444,12 @@ a.btn-sorting {
 .pages li:last-child {
     padding: 0 30px;
     width: auto;
+}
+p.about-head {
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.about-product p {
+    color: black;
 }
