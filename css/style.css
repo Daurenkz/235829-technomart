@@ -366,14 +366,69 @@ form.filter {
     color: black;
     font-size: 20px;
 }
-input {
+.filter input {
     display: table;
 }
 .power {
     width: 220px;
     height: 245px;
     float: left;
+    color: black;
+    font-size: 16px;
 }
 .about-product {
     display: inline-block;
+}
+.sorting {
+    font-size: 16px;
+    display: inline-block;
+    background: #f7f3ec;
+    width: 700px;
+    min-height: 40px;
+} 
+.sorting p {
+    float: left;
+}
+a.btn-sorting {
+    float: right;
+    margin-right: 50px;
+}
+.list {
+    float: right;
+    margin-bottom: 55px;
+}
+.list li {
+    font-size: 15px;
+    color: black;
+    float: right;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    border: 1px solid;
+    width: 220px;
+    height: 320px;
+}
+.list p {
+    width: 160px;
+    text-align: center;
+    min-height: 38px;
+}
+.pages {
+    display: inline-block;
+    min-width: 283px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+.pages li {
+    font-size: 16px;
+    color: black;
+    border: 1px solid;
+    border-radius: 3px;
+    min-width: 40px;
+    min-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+}
+.pages li:last-child {
+    padding: 0 30px;
+    width: auto;
 }
