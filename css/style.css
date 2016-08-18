@@ -343,10 +343,20 @@ h2.name-top {
     height: 88px;
     margin-bottom: 20px;
 }
+.page-main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 form.filter {
     float: left;
     width: 220px;
     min-height: 760px;
+}
+.products-catalog {
+    width: 700px;
+    height: 1145px;
+    float: right;
 }
 .name {
     color: black;
