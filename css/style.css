@@ -319,3 +319,61 @@ section.footer-copyright {
     font-size: 16px;
     min-width: 150px;
     min-height: 50px;
+}
+a.login {
+    display: block;
+}
+a.btn-case {
+    font-size: 13px;
+}
+h2.name-top {
+    float: left;
+    margin: 33px 0 33px 33px;
+}
+.breadcrumbs {
+    min-height: 65px;
+}
+.breadcrumbs li {
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
+.head-main {
+    background-color: #f2f6f8;
+    height: 88px;
+    margin-bottom: 20px;
+}
+form.filter {
+    float: left;
+    width: 220px;
+    min-height: 760px;
+}
+.name {
+    color: black;
+    width: 220px;
+    height: 40px;
+    background-color: #f7f3ec;
+}
+.price {
+    width: 220px;
+    height: 190px;
+    background-color: antiquewhite;
+}
+.manufacturers-form {
+    width: 220px;
+    min-height: 260px;
+    float: left;
+    color: black;
+    font-size: 20px;
+}
+input {
+    display: table;
+}
+.power {
+    width: 220px;
+    height: 245px;
+    float: left;
+}
+.about-product {
+    display: inline-block;
+}
