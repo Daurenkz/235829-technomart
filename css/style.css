@@ -27,23 +27,22 @@ header {
 .header-top {
     background-color: #293449;
     width: 100%;
-    min-height: 60px;
+    height: 42px;
     display: inline-block;
 }
 .header-bottom {
     min-height: 277px;
 }
 .logo {
-    display: inline-block;
+    float: left;
 }
 .search {
-    display: inline-block;
+    float: left;
     font-size: 17px;
 }
 .order {
-    display: inline-block;
+    float: right;
     font-size: 17px;
-    margin-left: 150px;
 }
 .descritpion {
     display: inline-block;
@@ -62,11 +61,18 @@ header {
 .service {
     background-color: #f1f5f7;
     width: 100%;
+    color: black;
 }
 .container {
     width: 940px;
     margin: 0 auto;
     font-size: 0;
+    padding: 0 10px;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 nav {
     background-color: #32425c;
@@ -119,6 +125,11 @@ nav li {
     float: right;
     margin-top: 20px;
 }
+.menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .product {
     display: inline-block;
     margin-top: 53px;
@@ -128,6 +139,11 @@ nav li {
     min-width: 940px;
     min-height: 90px;
     font-family: "Cuprum";
+}
+.top-product::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .rubric {
     float: left;
@@ -140,6 +156,16 @@ nav li {
     display: inline-block;
     margin-top: 20px;
 }
+a.btn-all { 
+    float: right;
+    min-width: 254px;
+    min-height: 38px;
+    background-color: #ee3643;
+    margin: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}    
 .products li{
     border: 1px solid #f7f3ec;
     padding: 5px;
@@ -183,16 +209,25 @@ li {
 }
 .cap {
     margin-top: 68px;
-    float: left;
     min-width: 400px;
     margin-right: 500px;
+    display: inline-block;
 }
 .slider2 {
     min-width: 240px;
     min-height: 142px;
     font-size: 21px;
-    float: left;
     margin-top: 40px;
+    display: inline-block;
+}
+.delivery {
+    display: inline-block;
+    width: 640px;
+    min-height: 247px;
+}
+.delivery img {
+    float: right;
+    width: 339px;
 }
 .company {
     font-size: 13px;
@@ -202,6 +237,7 @@ li {
 }
 .about-company {
     min-height: 526px;
+    margin-bottom: 86px;
 }
 .transport li {
     font-size: 20px;
@@ -211,15 +247,33 @@ li {
     float: right;
     font-size: 16px;
     width: 300px;
+    margin-top: 82px;
+    color: black;
+}
+.map p {
+    width: 230px;
+    margin-bottom: 40px;
 }
 a.btn-company {
     margin-top: 40px;
     display: inline-block;
     font-size: 16px;
+    background-color: #ee3643;
+    color: white;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
 }
 a.btn-lost {
     margin-top: 40px;
     display: inline-block;
+    background-color: #ee3643;
+    color: white;
+    border-radius: 3px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
 }
 .footer-top {
     background-color: #32425c;
