@@ -320,9 +320,6 @@ section.footer-copyright {
     min-width: 150px;
     min-height: 50px;
 }
-a.login {
-    display: block;
-}
 a.btn-case {
     font-size: 13px;
 }
