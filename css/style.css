@@ -193,6 +193,9 @@ p {
     display: inline-block;
     margin-left: 50px;
 }
+a.loged {
+    display: block;
+}
 ul {
     font-size: 0;
     margin: 0;
@@ -218,12 +221,18 @@ li {
     min-height: 142px;
     font-size: 21px;
     margin-top: 40px;
-    display: inline-block;
+    float: left;
+    margin-right: 40px;
 }
 .delivery {
     display: inline-block;
     width: 640px;
     min-height: 247px;
+}
+.delivery-text {
+    width: 285px;
+    height: 150px;
+    float: left;
 }
 .delivery img {
     float: right;
@@ -238,6 +247,7 @@ li {
 .about-company {
     min-height: 526px;
     margin-bottom: 86px;
+    margin-top: 50px;
 }
 .transport li {
     font-size: 20px;
@@ -247,7 +257,6 @@ li {
     float: right;
     font-size: 16px;
     width: 300px;
-    margin-top: 82px;
     color: black;
 }
 .map p {
@@ -296,29 +305,6 @@ a.btn-lost {
     font-size: 20px;
     float: right;
     padding-left: 30px;
-}
-.logo-footer {
-    float: left;
-}
-
-.footer-bottom {
-    background-color: #293449;
-    min-height: 107px;
-}
-section.footer-year {
-    float: left;
-}
-section.footer-social {
-    float: left;
-    min-width: 130px;
-    margin-left: 150px;
-    margin-top: 40px;
-}
-section.footer-copyright {
-    float: right;
-    font-size: 16px;
-    min-width: 150px;
-    min-height: 50px;
 }
 a.btn-case {
     font-size: 13px;
@@ -449,4 +435,33 @@ p.about-head {
 }
 .about-product p {
     color: black;
+}
+.logo-footer {
+    float: left;
+}
+
+.footer-bottom {
+    background-color: #293449;
+    min-height: 107px;
+}
+section.footer-year {
+    float: left;
+}
+section.footer-social {
+    float: left;
+    min-width: 130px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+section.footer-copyright {
+    float: right;
+    font-size: 16px;
+    min-width: 400px;
+    min-height: 50px;
+}
+.connect {
+    float: left;
+}
+.creator {
+    float: right;
 }
