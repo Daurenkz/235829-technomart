@@ -28,21 +28,27 @@ header {
     background-color: #293449;
     width: 100%;
     height: 42px;
-    display: inline-block;
+    float: left;
 }
 .header-bottom {
     min-height: 277px;
 }
 .logo {
-    float: left;
+    display: inline-block;
+    height: 46px;
 }
 .search {
-    float: left;
     font-size: 17px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
 }
 .order {
-    float: right;
     font-size: 17px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    margin-left: 140px;
 }
 .descritpion {
     display: inline-block;
@@ -341,7 +347,7 @@ form.filter {
 }
 .products-catalog {
     width: 700px;
-    height: 1145px;
+    min-height: 1145px;
     float: right;
 }
 .name {
@@ -386,8 +392,8 @@ form.filter {
     float: left;
 }
 a.btn-sorting {
-    float: right;
-    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
 }
 .list {
     float: right;
