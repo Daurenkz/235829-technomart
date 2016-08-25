@@ -43,6 +43,19 @@ header {
     position: relative;
     top: -20px;
 }
+input[type="search"] {
+    background: #293449;
+    border: none;
+    width: 150px;
+    height: 41px;
+    position: relative;
+    margin-left: 40px;
+    color: white;
+}
+a.btn-head {
+    text-decoration: none;
+    color: white;
+}
 .order {
     font-size: 17px;
     display: inline-block;
@@ -63,6 +76,53 @@ header {
     display: inline-block;
     font-size: 21px;
     color: #293449;
+    border: 3px solid white;
+    width: 270px;
+    min-height: 21px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ea4243;
+    top: -5px;
+    position: relative;
+}
+.user_block {
+    font-size: 0;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    top: -45px;
+}
+a.registr {
+    display: inline-block;
+    position: relative;
+    background: white;
+    width: 150px;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 21px;
+}
+}
+a.login {
+    display: inline-block;
+    position: relative;
+    background: white;
+    width: 120px;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+.contacs p {
+    color: #4b5a71;
 }
 .service {
     background-color: #f1f5f7;
@@ -93,13 +153,21 @@ nav li {
 .main-show {
     margin-top: 60px;
 }
+.block img {
+    position: relative;
+    left: 170px;
+    display: block;
+}
 .block {
     width: 300px;
     min-height: 123px;
     float: left;
 }
-.block>p {
+.block p {
     font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
 }
 .block1{
     background-color: #f6b22d; 
@@ -130,6 +198,18 @@ nav li {
     background-color: #f6b22d;
     float: right;
     margin-top: 20px;
+}
+a.btn-menu {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
 .menu::after {
     content: "";
@@ -165,21 +245,43 @@ nav li {
 a.btn-all { 
     float: right;
     min-width: 254px;
-    min-height: 38px;
     background-color: #ee3643;
-    margin: 25px;
     font-size: 16px;
     text-align: center;
     color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px;
+    position: relative;
+    top: 19px;
+    right: 20px;
+    border-radius: 5px;
 }    
 .products li{
     border: 1px solid #f7f3ec;
     padding: 5px;
-    margin-left: 3px;
+    margin-left: 20px;
     vertical-align: top;
-    min-width: 220px;
-    min-height: 318px;
-    text-align: center;   
+    min-width: 208px;
+    min-height: 306px;
+    text-align: center;  
+}
+.products li:first-child {
+    margin-left: 0;
+}
+.products del {
+    color: #999999;
+}
+.products p {
+    font-size: 18px;
+    display: block;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products img {
+    position: relative;
+    top: 20px;
 }
 .manufacturers li {
     border: 1px solid #f7f3ec;
