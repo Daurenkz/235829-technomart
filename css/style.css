@@ -272,12 +272,11 @@ a.btn-all {
 }    
 .products li{
     border: 1px solid #f7f3ec;
-    padding: 5px;
     margin-left: 20px;
     vertical-align: top;
-    min-width: 208px;
-    min-height: 306px;
-    text-align: center;  
+    min-width: 218px;
+    min-height: 317px;
+    text-align: center; 
 }
 .products li:first-child {
     margin-left: 0;
@@ -309,6 +308,14 @@ a.btn-all {
 }
 .manufacturers li {
     border: 1px solid #f7f3ec;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 218px;
+    height: 143px;
+}
+.manufacturers li:nth-child(4n+4) {
+    margin-right: 0;
 }
 p {
     font-size: 14px;
