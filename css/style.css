@@ -55,6 +55,18 @@ input[type="search"] {
 a.btn-head {
     text-decoration: none;
     color: white;
+    margin-right: 10px;
+    display: inline-block;
+}
+}
+a.btn-head:last-child {
+    background: bisque;
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    background: #63a63e;
 }
 .order {
     font-size: 17px;
@@ -112,13 +124,14 @@ a.login {
     display: inline-block;
     position: relative;
     background: white;
-    width: 120px;
+    width: 122px;
     min-height: 30px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
     color: black;
+    margin-left: 10px;
     font-size: 21px;
 }
 .contacs p {
@@ -283,14 +296,19 @@ a.btn-all {
     position: relative;
     top: 20px;
 }
+.btn {
+    width: 119px;
+    height: 28px;
+    background: #ee3643;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px;
+}
 .manufacturers li {
     border: 1px solid #f7f3ec;
-    vertical-align: top;
-    min-width: 220px;
-    min-height: 95px;
-    margin: 10px 10px 10px 0;
-    text-align: center;
-    padding-top: 50px;
 }
 p {
     font-size: 14px;
