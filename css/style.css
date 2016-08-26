@@ -425,11 +425,6 @@ p {
     font-size: 14px;
     margin: 0;
 }
-.user_block {
-    font-size: 21px;
-    display: inline-block;
-    margin-left: 50px;
-}
 a.loged {
     display: block;
 }
