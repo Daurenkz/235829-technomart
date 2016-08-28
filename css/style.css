@@ -101,6 +101,9 @@ header {
     font-weight: normal;
     padding-top: 8px;
 }
+.logo:hover {
+    background: #ca2c37;
+}
 .search {
     font-size: 17px;
     float: left;
@@ -148,6 +151,9 @@ a.btn-head:nth-child(3) {
     background: #5fbb2d;
     padding: 6px 0;
     margin: 0;
+}
+a.btn-head:last-child:hover {
+    background: #5fbb2d;
 }
 span.icon {
     opacity: 0.3;
@@ -273,9 +279,8 @@ a.login:first-child {
     text-align: center;
 }
 .main-navigation li:nth-child(7) {
-    width: 110px;
-    text-align: center;
-    margin-right: 24px;
+    width: 116px;
+    padding-left: 29px;
 }
 .main-navigation a {
     text-decoration: none;
@@ -332,7 +337,7 @@ a.login:first-child {
     margin-top: 20px;
 }
 a.btn-menu {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(229,229,229,0.3);
     width: 127px;
     height: 30px;
     border-radius: 5px;
@@ -344,6 +349,9 @@ a.btn-menu {
     float: left;
     margin: 0 0 22px 25px;
     text-transform: uppercase;
+}
+a.btn-menu:hover {
+    background: rgba(204,204,204, 0.7);
 }
 .menu::after {
     content: "";
@@ -391,7 +399,10 @@ a.btn-all {
     padding: 5px 12px;
     border-radius: 3px;
     margin: 25px;
-}    
+}
+a.btn-all:hover {
+    background: #ca2c37;
+}
 .products li{
     border: 1px solid #f7f3ec;
     margin-left: 20px;
@@ -417,6 +428,9 @@ a.btn-all {
     position: relative;
     top: 20px;
 }
+.products li:hover {
+    box-shadow: 0 0 25px #b8bbc2;
+}
 .btn {
     width: 119px;
     height: 28px;
@@ -438,6 +452,9 @@ a.btn-all {
 }
 .manufacturers li:nth-child(4n+4) {
     margin-right: 0;
+}
+.manufacturers li:hover {
+    box-shadow: 0 0 25px #b8bbc2;
 }
 p {
     font-size: 14px;
@@ -465,7 +482,20 @@ li {
     min-width: 400px;
     margin-right: 500px;
     display: inline-block;
+    margin-bottom: 50px;
 }
+p.top {
+    font-size: 30px;
+    font-family: "Cuprum";
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+.cap p {
+    line-height: 24px;
+    font-family: "PTSans";
+}
+
 .service-menu {
     float: left;
     width: 240px;
@@ -501,9 +531,9 @@ li.service-active {
     color: #32425c;
 }
 .delivery {
-    display: inline-block;
     width: 640px;
-    min-height: 247px;
+    min-height: 289px;
+    float: right;
 }
 .delivery-text {
     width: 285px;
@@ -513,6 +543,15 @@ li.service-active {
 .delivery img {
     float: right;
     width: 339px;
+}
+p.head-delivery {
+    font-size: 33px;
+    margin-bottom: 33px;
+    color: #32425c;
+    font-family: "Cuprum"
+}
+.delivery-text p {
+    font-family: "PTSans";
 }
 .company {
     font-size: 13px;
@@ -525,9 +564,30 @@ li.service-active {
     margin-bottom: 86px;
     margin-top: 50px;
 }
+.company p:first-child {
+    margin-top: 0;
+}
+.company p:nth-child(n) {
+    margin-top: 35px;
+}
+.company p:nth-child(4) {
+    margin-top: 0;
+}
 .transport li {
-    font-size: 20px;
-    display: table;
+    font-size: 18px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-weight: normal;
+}
+.transport li::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fb565a;
+    width: 25px;
+    position: relative;
+    left: -36px;
+    top: -20px;
 }
 .map {
     float: right;
@@ -540,15 +600,17 @@ li.service-active {
     margin-bottom: 40px;
 }
 a.btn-company {
-    margin-top: 40px;
+    margin-top: 33px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #ee3643;
     color: white;
-    width: 220px;
-    height: 40px;
     text-align: center;
     border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 4px 0;
 }
 a.btn-lost {
     margin-top: 40px;
@@ -557,8 +619,12 @@ a.btn-lost {
     color: white;
     border-radius: 3px;
     width: 300px;
-    height: 40px;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px 0;
 }
 .footer-top {
     background-color: #32425c;
