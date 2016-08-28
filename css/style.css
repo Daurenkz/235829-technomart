@@ -102,6 +102,9 @@ header {
 .search:hover {
     background: #212a3a;
 }
+.search input:hover {
+    background: #212a3a;
+}
 input[type="search"] {
     background: #293449;
     border: none;
@@ -137,6 +140,10 @@ a.btn-head:nth-child(3) {
     background: #5fbb2d;
     padding: 6px 0;
     margin: 0;
+}
+span.icon {
+    opacity: 0.3;
+    margin-right: 13px;
 }
 .descritpion {
     width: 190px;
@@ -226,7 +233,6 @@ a.login:first-child {
     float: left;
 }
 .main-navigation li {
-    margin-left: 60px;
     font-size: 17px;
     display: inline-block;
     padding: 13px 0;
@@ -537,6 +543,11 @@ a.btn-lost {
     font-size: 20px;
     float: right;
     padding-left: 30px;
+}
+.other-navigation ul {
+    content: "";
+    display: table;
+    clear: both;
 }
 a.btn-case {
     font-size: 13px;
