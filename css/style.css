@@ -90,8 +90,16 @@ header {
     margin-bottom: 63px;
 }
 .logo {
-    height: 46px;
+    height: 34px;
     float: left;
+    width: 220px;
+    box-shadow: 0 5px 0 #b72f38;
+    background: #ee3643;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 8px;
 }
 .search {
     font-size: 17px;
@@ -335,6 +343,7 @@ a.btn-menu {
     padding: 5px;
     float: left;
     margin: 0 0 22px 25px;
+    text-transform: uppercase;
 }
 .menu::after {
     content: "";
@@ -350,6 +359,8 @@ a.btn-menu {
     width: 940px;
     height: 90px;
     font-family: "Cuprum";
+    text-transform: uppercase;
+    font-weight: normal;
 }
 .top-product::after {
     content: "";
@@ -359,6 +370,7 @@ a.btn-menu {
 .rubric {
     float: left;
     margin: 30px 0 30px 30px;
+    font-weight: normal;
 }
 .products {
     font-size: 18px;
@@ -454,13 +466,39 @@ li {
     margin-right: 500px;
     display: inline-block;
 }
-.slider2 {
-    min-width: 240px;
-    min-height: 142px;
-    font-size: 21px;
-    margin-top: 40px;
+.service-menu {
     float: left;
-    margin-right: 40px;
+    width: 240px;
+    height: 188px;
+}
+.service-menu li {
+    font-size: 21px;
+    display: block;
+    background: #32425c;
+    padding-left: 22px;
+    padding-top: 11px;
+    height: 48px;
+    border-top: 1px solid #405069;
+    border-bottom: 1px solid #293449;
+}
+.service-menu a {
+    color: white;
+    text-decoration: none;
+}
+.service-menu li:nth-child(2):hover {
+    background: #293449;
+    border: 1px solid #293449;
+}
+.service-menu li:nth-child(3):hover {
+    background: #293449;
+    border: 1px solid #293449;
+}
+li.service-active {
+    background: white;
+    border: white;
+}
+.service-active a {
+    color: #32425c;
 }
 .delivery {
     display: inline-block;
