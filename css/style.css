@@ -630,14 +630,49 @@ a.btn-lost {
     background-color: #32425c;
     min-height: 194px;
 }
+.footer-top p {
+    font-size: 18px;
+    font-weight: normal;
+}
+.logo-page {
+    width: 178px;
+    height: 45px;
+    background: #ee3643;
+    display: inline-block;
+    box-shadow: 0 5px 0 #b52933;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 18px;
+    padding-left: 42px;
+    margin-bottom: 30px;
+}
 .more-navigation {
     float: right;
 }
 .more-navigation li {
     font-size: 14px;
-    display: table-cell;
-    padding-top: 50px;
-    padding-right: 50px;
+    padding-top: 35px;
+    margin-left: 57px;
+}
+.more-navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.more-navigation a:hover {
+    text-decoration: underline;
+    color: #f1f5f7;
+}
+.more-navigation li:nth-child(2) {
+    margin-left: 59px;
+}
+.more-navigation li:nth-child(3) {
+    margin-left: 58px;
+}
+.more-navigation li:nth-child(4) {
+    margin-left: 62px;
 }
 .other-navigation {
     float: right;
@@ -645,13 +680,35 @@ a.btn-lost {
 }
 .other-navigation li {
     font-size: 20px;
-    float: right;
-    padding-left: 30px;
+    margin-top: 22px;
+}
+.other-navigation li:first-child {
+    margin-left: 35px;
+    margin-right: 61px;
+}
+.other-navigation li:nth-child(2) {
+    margin-right: 59px;
+}
+.other-navigation li:nth-child(3) {
+    margin-right: 59px;
+}
+.other-navigation li:last-child {
+    margin-right: 0;
 }
 .other-navigation ul {
     content: "";
     display: table;
     clear: both;
+}
+.other-navigation a {
+    text-decoration: none;
+    color: #ffd180;
+    font-size: 18px;
+    font-weight: normal;
+}
+.other-navigation a:hover {
+    text-decoration: underline;
+    color: #ffd180;
 }
 a.btn-case {
     font-size: 13px;
@@ -786,7 +843,6 @@ p.about-head {
 .logo-footer {
     float: left;
 }
-
 .footer-bottom {
     background-color: #293449;
     min-height: 107px;
