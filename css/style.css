@@ -125,6 +125,10 @@ input[type="search"] {
     margin-left: 40px;
     color: white;
 }
+span.icon-bookmark {
+    position: relative;
+    left: -8px;
+}
 .order {
     font-size: 0;
     float: right;
@@ -141,14 +145,14 @@ a.btn-head {
     font-size: 17px;
 }
 a.btn-head:nth-child(n) {
-    width: 140px;
+    width: 139px;
     text-align: center;
     padding: 6px 0;
 }
-a.btn-head:nth-child(3) {
+a.btn-head:last-child {
     width: 150px;
     text-align: center;
-    background: #5fbb2d;
+    background: #63a63e;
     padding: 6px 0;
     margin: 0;
 }
@@ -493,7 +497,7 @@ p.top {
 }
 .cap p {
     line-height: 24px;
-    font-family: "PTSans";
+    font-family: "PT Sans";
 }
 
 .service-menu {
@@ -551,7 +555,7 @@ p.head-delivery {
     font-family: "Cuprum"
 }
 .delivery-text p {
-    font-family: "PTSans";
+    font-family: "PT Sans";
 }
 .company {
     font-size: 13px;
@@ -862,18 +866,25 @@ section.footer-year {
 section.footer-social {
     float: left;
     min-width: 130px;
-    margin-left: 150px;
-    margin-top: 40px;
+    margin-left: 160px;
+    margin-top: 34px;
 }
 a.social-btn {
-    font-size: 18px;
+    font-size: 19px;
     color: white;
     display: inline-block;
-    width: 43px;
-    height: 43px;
+    width: 29px;
+    height: 23px;
     margin: 0 2px;
-    background: red;
-    text-align: center;
+    background: #212a3a;
+    border-radius: 50%;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 6px;
+}
+a.social-btn:hover {
+    background: #ee3643;
 }
 .social-btn span.icon {
     color: white;
@@ -883,12 +894,25 @@ a.social-btn {
 section.footer-copyright {
     float: right;
     font-size: 16px;
-    min-width: 400px;
+    min-width: 200px;
     min-height: 50px;
+    margin-top: 43px;
 }
 .connect {
     float: left;
+    margin-right: 51px;
+}
+section.footer-copyright p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 5px;
+    display: block;
+}
+a.btn-link {
+    color: #ffd180;
+    text-decoration: none;
+    font-weight: normal;
 }
 .creator {
     float: right;
-}
+    margin-right: 14px;
