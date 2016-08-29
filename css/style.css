@@ -57,7 +57,7 @@ body {
 .icon-home::before { content: "🏠"; } /* "\1f3e0" */
 .icon-user::before { content: "👨"; } /* "\1f468" */
 .icon-phone::before { content: "📞"; } /* "\1f4de" */
-.icon-instagramm::before { content: "📷"; } /* "\1f4f7" */
+.icon-instagram::before { content: "📷"; } /* "\1f4f7" */
 .icon-search::before { content: "🔍"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
@@ -633,6 +633,8 @@ a.btn-lost {
 .footer-top p {
     font-size: 18px;
     font-weight: normal;
+    margin-left: 4px;
+    line-height: 24px;
 }
 .logo-page {
     width: 178px;
@@ -645,7 +647,7 @@ a.btn-lost {
     font-weight: normal;
     padding-top: 18px;
     padding-left: 42px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
 }
 .more-navigation {
     float: right;
@@ -849,12 +851,34 @@ p.about-head {
 }
 section.footer-year {
     float: left;
+    margin-top: 36px;
+}
+.footer-year p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-left: 2px;
 }
 section.footer-social {
     float: left;
     min-width: 130px;
     margin-left: 150px;
     margin-top: 40px;
+}
+a.social-btn {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin: 0 2px;
+    background: red;
+    text-align: center;
+}
+.social-btn span.icon {
+    color: white;
+    opacity: 1;
+    margin: 0;
 }
 section.footer-copyright {
     float: right;
