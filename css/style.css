@@ -101,7 +101,7 @@ header {
 .search {
     font-size: 17px;
     float: left;
-    width: 270px;
+    width: 268px;
     height: 42px;
 }
 .search:hover {
@@ -149,16 +149,16 @@ a.btn-head {
     font-weight: normal;
     font-size: 17px;
 }
-a.btn-head:first-child {
-    padding-right: 7px;
-    width: 135px;
-    margin: 0;
-}
 a.btn-head:nth-child(n) {
     width: 139px;
     text-align: center;
     padding: 6px 5px;
     margin-left: 3px;
+}
+a.btn-head:first-child {
+    padding-right: 7px;
+    width: 135px;
+    margin: 0;
 }
 a.btn-head:last-child {
     width: 150px;
