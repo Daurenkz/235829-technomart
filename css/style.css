@@ -198,7 +198,6 @@ span.icon {
 }
 a.registr {
     display: inline-block;
-    position: relative;
     background: white;
     width: 150px;
     min-height: 30px;
@@ -243,13 +242,11 @@ span.icon.icon-login {
     padding: 5px 20px 15px 41px;
     color: #ea4243;
     margin-right: 68px;
-    word-spacing: -2px;
 }
 .contacs p {
     color: #4b5a71;
     display: block;
     padding-left: 10px;
-    word-spacing: -2px;
 }
 span.icon.icon-phone {
     display: inline-block;
@@ -374,7 +371,7 @@ span.icon.icon-phone {
 .block5{
     background-color: #f6b22d;
     float: right;
-    margin-top: 19px;
+    margin-top: 20px;
 }
 a.btn-menu {
     background: rgba(229,229,229,0.3);
@@ -388,13 +385,11 @@ a.btn-menu {
     margin: 4px 0px 20px 23px;
     text-transform: uppercase;
     padding: 5px 5px 5px 30px;
-    word-spacing: -2px;
 }
 a.btn-menu:hover {
     background: rgba(204,204,204, 0.7);
 }
 .block1 a.btn-menu {
-    word-spacing: -2px;
     width: 101px;
     height: 28px;
     margin: 4px 0px 20px 25px;
@@ -403,15 +398,15 @@ a.btn-menu:hover {
 .block2 a.btn-menu {
     padding-right: 6px;
     padding: 5px 10px 5px 25px;
-    word-spacing: -1px;
     margin: 4px 0px 20px 25px;
 }
 .block4 a.btn-menu {
-    padding: 5px 12px 5px 23px;
+    padding: 5px 12px 5px 22px;
+}
 }
 .block5 a.btn-menu {
     padding: 5px 0px 5px 36px;
-    margin-top: 5px;
+    margin-top: 4px;
     width: 99px;
 }
 .menu::after {
