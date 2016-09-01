@@ -245,7 +245,7 @@ span.icon.icon-login {
 .contacs {
     font-size: 0;
     float: right;
-    margin: 8px 0 0 70px;
+    margin: 8px 50px 0 70px;
 }
 .number {
     display: inline-block;
@@ -255,7 +255,7 @@ span.icon.icon-login {
     height: 20px;
     padding: 5px 20px 15px 41px;
     color: #ea4243;
-    margin-right: 68px;
+    margin-right: 18px;
 }
 .contacs p {
     color: #4b5a71;
@@ -857,6 +857,7 @@ a.btn-lost {
 }
 a.btn-case {
     font-size: 13px;
+    display: inline-block
 }
 h2.name-top {
     float: left;
@@ -1056,7 +1057,44 @@ a.btn-link {
     float: right;
     margin-right: 14px;
 }
-
+a.loged {
+    background: white;
+    min-width: 300px;
+    height: 35px;
+    float: right;
+    color: black;
+    font-size: 21px;
+    line-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 3px;
+}
+.user_block_catalog {
+    font-size: 0;
+    float: right;
+    margin-top: 5px;
+    width: 300px;
+    display: inline-block;
+    height: 79px;
+}
+.number-catalog {
+    display: inline-block;
+    font-size: 21px;
+    border: 3px solid white;
+    width: 203px;
+    height: 20px;
+    padding: 5px 20px 15px 41px;
+    color: #ea4243;
+}
+a.btn-case {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 36px;
+    margin-top: 6px;
+    color: #3f4e66;
+}
 
 
 
