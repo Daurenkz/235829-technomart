@@ -153,23 +153,33 @@ a.btn-head:nth-child(n) {
     width: 139px;
     text-align: center;
     padding: 6px 5px;
-    margin-left: 3px;
 }
 a.btn-head:first-child {
-    padding-right: 7px;
-    width: 135px;
+    padding-right: 11px;
+    width: 133px;
     margin: 0;
 }
 a.btn-head:last-child {
     width: 150px;
     text-align: center;
     background: #63a63e;
-    padding: 6px 0;
+    padding: 12px 0;
     margin: 0;
-    margin-left: 2px;
+    line-height: 18px;
 }
 a.btn-head:last-child:hover {
     background: #5fbb2d;
+}
+a.btn-head-catalog {
+    width: 130px;
+    text-align: center;
+    padding: 12px 10px;
+    background: #ee3643;
+    font-size: 17px;
+    padding-right: 24px;
+    padding-left: 27px;
+    text-decoration: none;
+    color: white;
 }
 span.icon {
     opacity: 0.3;
@@ -1042,11 +1052,19 @@ a.btn-link {
     float: right;
     margin-right: 14px;
 }
-font-size: 18px;
-    color: black;
-    margin-bottom: 20px;
-    display: inline-block;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .list {
     font-size: 18px;
     color: black;
