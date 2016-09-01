@@ -61,12 +61,6 @@ body {
 .icon-search::before { content: "🔍"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
-h2 {
-    font-size: 30px;
-    line-height: 30px;
-    color: #32425c;
-    font-family: "Cuprum", "Arial", sans-serif;
-}
 header {
     background-color: #f1f5f7;
     width: 100%;
@@ -861,19 +855,38 @@ a.btn-case {
 }
 h2.name-top {
     float: left;
-    margin: 33px 0 33px 33px;
+    margin: 30px 0 33px 28px;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Cuprum", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 .breadcrumbs {
-    min-height: 65px;
+    min-height: 59px;
+    display: inline-block;
+    min-width: 940px;
 }
 .breadcrumbs li {
-    font-size: 16px;
-    color: black;
-    margin-left: 20px;
+    margin-left: 37px;
+    padding-top: 19px;
+}
+.breadcrumbs li:first-child {
+    margin: 0;
+}
+.breadcrumbs li:nth-child(3) {
+    margin-left: 41px;
+}
+.breadcrumbs a {
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .head-main {
     background-color: #f2f6f8;
-    height: 88px;
+    height: 89px;
     margin-bottom: 20px;
 }
 .page-main {
@@ -895,22 +908,46 @@ form.filter {
     float: right;
 }
 .name {
-    color: black;
     width: 220px;
     height: 40px;
     background-color: #f7f3ec;
+}
+.name p {
+    color: black;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 19px;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 .price {
     width: 220px;
     height: 190px;
     background-color: antiquewhite;
 }
-.manufacturers-form {
+   .manufacturers-form {
     width: 220px;
     min-height: 260px;
     float: left;
     color: black;
     font-size: 20px;
+    margin-top: 15px;
+    border-top: 1px solid #e5e5e5;
+}
+h2.made-top {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.manufacturers-form label {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
 }
 .filter input {
     display: table;
