@@ -1059,16 +1059,15 @@ a.btn-link {
 }
 a.loged {
     background: white;
-    min-width: 300px;
-    height: 35px;
+    min-width: 250px;
+    height: 34px;
     float: right;
     color: black;
     font-size: 21px;
     line-height: 18px;
     text-decoration: none;
-    text-align: center;
-    padding-top: 12px;
     margin-top: 3px;
+    padding: 11px 28px 0px 21px;
 }
 .user_block_catalog {
     font-size: 0;
@@ -1077,6 +1076,32 @@ a.loged {
     width: 300px;
     display: inline-block;
     height: 79px;
+}
+span.icon.icon-user {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    bottom: 2px;
+}
+span.icon.icon-logout {
+    font-size: 22px;
+    line-height: 18px;
+    display: inline-block;
+    position: relative;
+    left: 33px;
+}
+span.point {
+    display: inline-block;
+    position: relative;
+    width: 2px;
+    height: 2px;
+    border: 1px solid;
+    border-radius: 50px;
+    background: black;
+    bottom: 4px;
+    left: 15px;
 }
 .number-catalog {
     display: inline-block;
@@ -1091,9 +1116,10 @@ a.btn-case {
     display: inline-block;
     font-size: 16px;
     line-height: 18px;
-    padding-left: 36px;
-    margin-top: 6px;
+    padding-left: 19px;
+    margin-top: 8px;
     color: #3f4e66;
+    margin-right: 13px;
 }
 
 
