@@ -324,14 +324,18 @@ span.icon.icon-phone {
 }
 .block img {
     float: right;
-    margin: 30px 30px 23px 23px;
-}
+    margin: 32px 30px 23px 23px;
 }
 .block1 img {
+    margin-top: 31px;
     margin-right: 43px;
 }
+.block2 img {
+    margin-top: 33px;
+    margin-right: 29px;
+}
 .block4 img {
-    margin: 27px 45px 25px 0;
+    margin: 26px 45px 22px 0px
 }
 .block {
     width: 300px;
@@ -340,7 +344,7 @@ span.icon.icon-phone {
 .block p {
     font-size: 24px;
     float: left;
-    margin: 20px 0 11px 25px;
+    margin: 21px 0 8px 23px;
 }
 .block1{
     background-color: #f6b22d; 
@@ -374,20 +378,41 @@ span.icon.icon-phone {
 }
 a.btn-menu {
     background: rgba(229,229,229,0.3);
-    width: 127px;
-    height: 30px;
+    width: 100px;
+    height: 28px;
     border-radius: 5px;
     font-size: 14px;
     text-decoration: none;
     color: white;
-    text-align: center;
-    padding: 5px;
     float: left;
-    margin: 0 0 22px 25px;
+    margin: 4px 0px 20px 23px;
     text-transform: uppercase;
+    padding: 5px 5px 5px 30px;
+    word-spacing: -2px;
 }
 a.btn-menu:hover {
     background: rgba(204,204,204, 0.7);
+}
+.block1 a.btn-menu {
+    word-spacing: -2px;
+    width: 101px;
+    height: 28px;
+    margin: 4px 0px 20px 25px;
+    padding: 5px 9px 5px 25px;
+}
+.block2 a.btn-menu {
+    padding-right: 6px;
+    padding: 5px 10px 5px 25px;
+    word-spacing: -1px;
+    margin: 4px 0px 20px 25px;
+}
+.block4 a.btn-menu {
+    padding: 5px 12px 5px 23px;
+}
+.block5 a.btn-menu {
+    padding: 5px 0px 5px 36px;
+    margin-top: 5px;
+    width: 99px;
 }
 .menu::after {
     content: "";
