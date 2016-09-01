@@ -690,6 +690,7 @@ li.service-active {
     padding-top: 19px;
     padding-left: 35px;
     font-weight: normal;
+    color: black;
 }
 .transport li::after {
     content: "";
