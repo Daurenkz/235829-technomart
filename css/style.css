@@ -384,7 +384,7 @@ a.btn-menu {
     float: left;
     margin: 4px 0px 20px 23px;
     text-transform: uppercase;
-    padding: 5px 5px 5px 30px;
+    padding: 5px 0px 5px 35px;
 }
 a.btn-menu:hover {
     background: rgba(204,204,204, 0.7);
@@ -477,6 +477,11 @@ a.btn-all:hover {
 }
 .products del {
     color: #999999;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 9px;
+    font-size: 17px;
 }
 .products p {
     font-size: 18px;
@@ -484,31 +489,50 @@ a.btn-all:hover {
     width: 160px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "PT Sans";
+    line-height: 20px;
+    font-weight: bold;
+}
+.products li:last-child p {
+    margin-bottom: 39px;
 }
 .products img {
-    margin-bottom: 32px;
+    margin-bottom: 36px
 }
 .products li:hover {
     box-shadow: 0 0 25px #b8bbc2;
 }
 .products li:nth-child(2) img {
-    margin-top: 7px;
-    margin-bottom: 25px;
+    margin-top: 8px;
+    margin-bottom: 28px;
+    margin-right: 18px;
 }
 .products li:nth-child(3) img {
     margin-top: 2px;
     margin-right: 1px;
+    margin-bottom: 34px;
+}
+.products li:last-child img {
+    margin-top: 8px;
+    margin-right: 35px;
+    margin-bottom: 28px;
 }
 .btn {
-    width: 119px;
+    width: 107px;
     height: 28px;
     background: #ee3643;
-    display: inline-block;
+    display: block;
     border-radius: 3px;
     color: white;
     font-size: 17px;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px 0 0 14px;
+    margin-left: 42px;
+    line-height: 18px;
+    font-family: "PT Sans";
+}
+section.manufacturer {
+    margin-bottom: 65px;
 }
 .manufacturers li {
     border: 1px solid #f7f3ec;
@@ -550,20 +574,21 @@ li {
     min-width: 400px;
     margin-right: 500px;
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
-p.top {
+.cap p.top {
     font-size: 30px;
     font-family: "Cuprum";
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 29px;
     font-weight: normal;
 }
 .cap p {
     line-height: 24px;
     font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: normal;
 }
-
 .service-menu {
     float: left;
     width: 240px;
@@ -600,11 +625,11 @@ li.service-active {
 }
 .delivery {
     width: 640px;
-    min-height: 289px;
+    min-height: 283px;
     float: right;
 }
 .delivery-text {
-    width: 285px;
+    width: 296px;
     height: 150px;
     float: left;
 }
@@ -612,39 +637,57 @@ li.service-active {
     float: right;
     width: 339px;
 }
-p.head-delivery {
-    font-size: 33px;
-    margin-bottom: 33px;
+.delivery-text p.head-delivery {
+    font-size: 36px;
+    margin-bottom: 31px;
     color: #32425c;
-    font-family: "Cuprum"
+    font-family: "Cuprum";
+    text-transform: uppercase;
+    margin-left: 18px;
+    line-height: 24px;
 }
 .delivery-text p {
+    font-size: 13px;
+    margin-left: 21px;
+    margin-top: 2px;
     font-family: "PT Sans";
+    font-weight: normal;
+    line-height: 24px;
 }
 .company {
-    font-size: 13px;
-    color: black;
     width: 520px;
     float: left;
 }
-.about-company {
-    min-height: 526px;
-    margin-bottom: 86px;
-    margin-top: 50px;
+.company p {
+    color: black;
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 27px;
+    font-family: "PT Sans";
+    font-weight: normal;
 }
-.company p:first-child {
-    margin-top: 0;
-}
-.company p:nth-child(n) {
-    margin-top: 35px;
+.company p.top {
+    color: black;
+    line-height: 24px;
+    font-size: 30px;
+    font-family: "Cuprum";
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 32px;
 }
 .company p:nth-child(4) {
     margin-top: 0;
 }
+.about-company {
+    min-height: 486px;
+    margin-top: 50px;
+}
 .transport li {
     font-size: 18px;
+    line-height: 20px;
+    font-family: "Cuprum";
     display: block;
-    padding-top: 10px;
+    padding-top: 19px;
     padding-left: 35px;
     font-weight: normal;
 }
@@ -655,7 +698,7 @@ p.head-delivery {
     width: 25px;
     position: relative;
     left: -36px;
-    top: -20px;
+    top: -12px;
 }
 .map {
     float: right;
@@ -663,9 +706,21 @@ p.head-delivery {
     width: 300px;
     color: black;
 }
+.map p.top {
+    font-size: 30px;
+    font-family: "Cuprum";
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 32px;
+}
 .map p {
     width: 230px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-family: "PT Sans";
+    line-height: 24px;
+    font-weight: normal;
 }
 a.btn-company {
     margin-top: 33px;
@@ -673,26 +728,31 @@ a.btn-company {
     font-size: 14px;
     background-color: #ee3643;
     color: white;
-    text-align: center;
     border-radius: 3px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: normal;
-    padding: 4px 0;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-left: 41px;
+    padding-right: 40px;
+    line-height: 18px;
 }
 a.btn-lost {
-    margin-top: 40px;
+    margin-top: 30px;
     display: inline-block;
     background-color: #ee3643;
     color: white;
     border-radius: 3px;
-    width: 300px;
-    text-align: center;
+    width: 236px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
+    line-height: 18px;
     font-weight: normal;
-    padding: 3px 0;
+    padding-top: 11px;
+    padding-left: 64px;
+    padding-bottom: 9px;
 }
 .footer-top {
     background-color: #32425c;
