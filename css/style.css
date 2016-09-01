@@ -2,7 +2,7 @@ body {
     font-size: 24px;
     line-height: 30px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: normal
     font-family: "Cuprum", "Arial", sans-serif;
     margin: 0;
 }
@@ -133,7 +133,7 @@ span.icon.icon-bookmark {
 span.icon.icon-basket {
     display: inline-block;
     position: relative;
-    right: 12px;
+    right: 13px;
 }
 .order {
     font-size: 0;
@@ -141,6 +141,9 @@ span.icon.icon-basket {
 }
 .order a:hover {
     background: #212a3a;
+}
+a.btn-head-catalog:hover {
+    background: #ca2c37;
 }
 a.btn-head {
     text-decoration: none;
@@ -180,6 +183,7 @@ a.btn-head-catalog {
     padding-left: 27px;
     text-decoration: none;
     color: white;
+    margin-left: 3px;
 }
 span.icon {
     opacity: 0.3;
