@@ -1555,6 +1555,7 @@ h2.info-head {
 .slider {
     width: 621px;
     float: left;
+    position: relative;
 }
 .slide {
     min-height: 267px;
@@ -1578,7 +1579,7 @@ h2.info-head {
     line-height: 24px;
     color: white;
 }
-.slide .btn {
+.slide .slider-btn {
     display: block;
     width: 220px;
     margin-top: 25px;
@@ -1593,11 +1594,45 @@ h2.info-head {
     border-radius: 3px;
 }
 .slider:nth-child(1) {
-  background-image: url(man.jpg);
+    background-image: url(man.jpg);
 }
 
 .slider:nth-child(2) {
-  background-image: url(man2.jpg);
+    background-image: url(man2.jpg);
+}
+.slide {
+    display: none;
+}
+.slider:nth-child(1) {
+    display: block;
+}
+.slider input[type="radio"] {
+    display: none;
+}
+.slider-controls label {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 3px;
+    vertical-align: top;
+    background: #ffffff;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+position: absolute;
+    bottom: 95px;
+    left: 50%;
+}
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+    display: block;
 }
 
-
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+    display: block;
+}
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+    background: #ee3643;
+}
