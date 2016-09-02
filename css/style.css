@@ -1634,3 +1634,15 @@ h2.info-head {
 #btn-2:checked ~ .slider-controls label[for="btn-2"] {
     background: #ee3643;
 }
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+  left: 0;
+}
+#btn-1:checked ~ .slides .slide:nth-child(2) {
+  left: 880px;
+}
+#btn-2:checked ~ .slides .slide:nth-child(1) {
+  left: -880px;
+}
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  left: 0;
+}
