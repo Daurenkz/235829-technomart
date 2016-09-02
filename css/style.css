@@ -389,7 +389,7 @@ span.icon.icon-phone {
     background-color: #cc79d1;
     float: right;
 }
-.slider {
+.slides {
     float: left;
     min-width: 622px;
     min-height: 266px;
@@ -594,6 +594,7 @@ li .actions {
 }
 .products li:hover .actions {
     display: block;
+    z-index: 20;
 }
 .actions .buy:hover {
     background: #5fbb2d;
@@ -630,14 +631,14 @@ a.btn:after {
     margin-left: 41px;
 }
 .new:before {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  z-index: 10;
-  width: 60px;
-  height: 60px;
-  content: "";
-  background: url(new-flag.png);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    content: "";
+    background: url(new-flag.png) no-repeat 0 0;
 }
 section.manufacturer {
     margin-bottom: 65px;
@@ -1546,3 +1547,57 @@ h2.info-head {
     outline: none;
     background: #f1f1f1;
 }
+
+
+
+
+
+.slider {
+    width: 621px;
+    float: left;
+}
+.slide {
+    min-height: 267px;
+}
+.slide-text {
+    width: 250px;
+    padding: 25px 0;
+}
+.slide-title {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "Cuprum", "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.slide p {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: white;
+}
+.slide .btn {
+    display: block;
+    width: 220px;
+    margin-top: 25px;
+    padding: 12px 10px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #fb565a;
+    border-radius: 3px;
+}
+.slider:nth-child(1) {
+  background-image: url(man.jpg);
+}
+
+.slider:nth-child(2) {
+  background-image: url(man2.jpg);
+}
+
+
