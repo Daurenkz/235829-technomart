@@ -909,11 +909,12 @@ form.filter {
 .products-catalog {
     width: 700px;
     min-height: 1145px;
-    float: right;
+    float: left;
+    margin-left: 13px;
 }
 .name {
     width: 220px;
-    height: 40px;
+    height: 38px;
     background-color: #f7f3ec;
 }
 .name p {
@@ -988,12 +989,23 @@ h2.power-top {
     width: 700px;
     min-height: 40px;
 } 
-.sorting p {
-    float: left;
+.sorting li {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 9px;
+    padding-left: 18px;
+    font-weight: normal;
+}
+.sorting li:first-child {
+    margin-right: 118px;
 }
 a.btn-sorting {
-    float: left;
-    margin-left: 50px;
+    display: inline-block;
+    margin-right: 50px;
 }
 .list {
     float: right;
