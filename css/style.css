@@ -219,10 +219,10 @@ a.registr {
     display: inline-block;
     background: white;
     width: 150px;
-    min-height: 30px;
+    height: 30px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 9px;
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -1541,15 +1541,11 @@ h2.info-head {
     outline: none;
     background: #f1f1f1;
 }
-
-
-
-
-
 .slider {
     width: 621px;
     float: left;
     position: relative;
+    margin-top: 20px;
 }
 .slide {
     min-height: 267px;
@@ -1557,6 +1553,7 @@ h2.info-head {
 .slide-text {
     width: 250px;
     padding: 25px 0;
+    margin-left: 24px;
 }
 .slide-title {
     font-size: 36px;
@@ -1573,19 +1570,24 @@ h2.info-head {
     line-height: 24px;
     color: white;
 }
+.slide p:nth-child(2) {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Cuprum", "Arial", sans-serif;
+}
 .slide .slider-btn {
     display: block;
-    width: 220px;
-    margin-top: 25px;
-    padding: 12px 10px;
+    width: 128px;
+    margin-top: 122px;
     font-weight: 300;
-    font-size: 12px;
-    text-align: center;
+    font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     background: #fb565a;
     border-radius: 3px;
+    line-height: 18px;
+    padding: 11px 17px 9px 51px;
 }
 .slide:nth-child(1) {
     background-image: url(man.jpg);
@@ -1607,7 +1609,7 @@ h2.info-head {
     display: inline-block;
     width: 5px;
     height: 5px;
-    margin: 0 3px;
+    margin: 0 5px;
     vertical-align: top;
     background: #ffffff;
     border: 3px solid white;
@@ -1615,7 +1617,7 @@ h2.info-head {
 }
 .slider-controls {
     position: absolute;
-    bottom: 95px;
+    bottom: 17px;
     left: 50%;
     width: 200px;
     margin-left: -100px;
