@@ -1612,10 +1612,14 @@ h2.info-head {
     background: #ffffff;
     border: 3px solid white;
     border-radius: 50%;
-    cursor: pointer;
+}
+.slider-controls {
     position: absolute;
     bottom: 95px;
     left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    text-align: center;
 }
 #btn-1:checked ~ .slides .slide:nth-child(1) {
     display: block;
@@ -1625,7 +1629,6 @@ h2.info-head {
     display: block;
 }
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
     background: #ee3643;
 }
