@@ -987,7 +987,9 @@ h2.power-top {
     display: inline-block;
     background: #f7f3ec;
     width: 700px;
-    min-height: 40px;
+    min-height: 38px;
+    margin-left: 4px;
+    margin-bottom: 20px;
 } 
 .sorting li {
     display: inline-block;
@@ -996,25 +998,51 @@ h2.power-top {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
     color: black;
-    padding-top: 9px;
-    padding-left: 18px;
+    padding-top: 3px;
+    padding-left: 17px;
     font-weight: normal;
 }
 .sorting li:first-child {
     margin-right: 118px;
 }
+.sorting li:nth-child(2) a {
+    color: #ee3643;
+    text-decoration: none;
+}
+.sorting li:nth-child(4) a {
+    margin-right: 21px;
+}
+.sorting li:last-child {
+    padding-left: 0;
+}
 a.btn-sorting {
     display: inline-block;
     margin-right: 50px;
+    color: #b6b3ae;
+    text-decoration: none;
+}
+span.icon-down-dir {
+    font-size: 23px;
+    line-height: 20px;
+    color: #c6c2bd;
+    position: relative;
+    top: 4px;
+}
+span.icon-up-dir {
+    font-size: 23px;
+    line-height: 20px;
+    color: #ee3643;
+    position: relative;
+    top: 4px;
 }
 .list {
-    float: right;
+    float: left;
     margin-bottom: 55px;
 }
 .list li {
     font-size: 15px;
     color: black;
-    float: right;
+    float: left;
     margin-right: 9px;
     margin-bottom: 9px;
     border: 1px solid;
