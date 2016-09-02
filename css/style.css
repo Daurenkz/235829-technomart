@@ -77,6 +77,9 @@ header {
     min-height: 277px;
     margin-bottom: 59px;
 }
+.header-bottom-catalog {
+    min-height: 277px;
+}
 .logo {
     height: 34px;
     float: left;
@@ -861,6 +864,7 @@ h2.name-top {
     font-family: "Cuprum", "Arial", sans-serif;
     text-transform: uppercase;
     font-weight: normal;
+    color: #32425c;
 }
 .breadcrumbs {
     min-height: 59px;
@@ -958,6 +962,21 @@ h2.made-top {
     float: left;
     color: black;
     font-size: 16px;
+}
+h2.power-top {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.power label {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 .about-product {
     background: #f2f6f8;
