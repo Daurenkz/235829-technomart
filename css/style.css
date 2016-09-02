@@ -893,9 +893,6 @@ h2.name-top {
     height: 89px;
     margin-bottom: 20px;
 }
-.page-main {
-    margin-bottom: 50px;
-}
 .page-main::after {
     content: "";
     display: table;
@@ -907,7 +904,7 @@ form.filter {
     min-height: 760px;
 }
 .products-catalog {
-    width: 700px;
+    width: 707px;
     min-height: 1145px;
     float: left;
     margin-left: 13px;
@@ -1036,23 +1033,56 @@ span.icon-up-dir {
     top: 4px;
 }
 .list {
-    float: left;
-    margin-bottom: 55px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.list ul:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 .list li {
     font-size: 15px;
     color: black;
     float: left;
-    margin-right: 9px;
-    margin-bottom: 9px;
-    border: 1px solid;
-    width: 220px;
-    height: 320px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    width: 218px;
+    height: 316px;
+    margin-left: 20px;
+}
+.list li:nth-child(3n+1) {
+    margin-left: 7px;
+}
+.list li:nth-child(3n+3) {
+    margin-right: 0;
+}
+.list li:nth-child(3n+1) img {
+    margin-top: 8px;
+    margin-left: 34px;
+    margin-bottom: 32px;
+}
+.list li:nth-child(3n+2) img {
+    margin-top: 2px;
+    margin-left: 22px;
+    margin-bottom: 38px;
+}
+.list li:nth-child(3n+3) img {
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 26px;
 }
 .list p {
+    font-size: 18px;
+    display: block;
     width: 160px;
-    text-align: center;
-    min-height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "PT Sans", "Arial", sans-serif;
+    line-height: 20px;
+    font-weight: bold;
 }
 .pages {
     display: inline-block;
@@ -1061,25 +1091,38 @@ span.icon-up-dir {
     margin-bottom: 60px;
 }
 .pages li {
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 18px;
     color: black;
-    border: 1px solid;
+    border: 1px solid #e5e5e5;
     border-radius: 3px;
-    min-width: 40px;
-    min-height: 40px;
-    margin-right: 10px;
-    text-align: center;
+    min-width: 19px;
+    min-height: 27px;
+    margin-left: 6px;
+    padding-left: 17px;
+    margin-right: 4px;
+    padding-top: 10px;
+    font-family: "PT Sans", "Aria", sans-serif;
+}
+.pages li.active {
+    background: #ee3643;
+    color: white;
 }
 .pages li:last-child {
-    padding: 0 30px;
-    width: auto;
+    width: 107px;
+    padding-left: 32px;
 }
-p.about-head {
+a.btn-page {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+h2.info-head {
     font-size: 24px;
     margin-top: 20px;
     display: inline-block;
 }
-.about-product p {
+.info p {
     color: black;
 }
 .logo-footer {
@@ -1217,18 +1260,6 @@ a.btn-case {
     color: #3f4e66;
     margin-right: 13px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .list {
     font-size: 18px;
     color: black;
