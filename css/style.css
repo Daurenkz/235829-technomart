@@ -877,7 +877,7 @@ h2.name-top {
     min-width: 940px;
 }
 .breadcrumbs li {
-    margin-left: 37px;
+    margin-left: 17px;
     padding-top: 19px;
     font-size: 13px;
     color: black;
@@ -895,6 +895,13 @@ h2.name-top {
     font-family: "PT Sans", "Arial", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
+}
+span.icon.icon-right {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-left: 3px;
 }
 .head-main {
     background-color: #f2f6f8;
@@ -1010,9 +1017,8 @@ h2.power-top {
 .sorting li:first-child {
     margin-right: 118px;
 }
-.sorting li:nth-child(2) a {
+a.btn-sorting.active {
     color: #ee3643;
-    text-decoration: none;
 }
 .sorting li:nth-child(4) a {
     margin-right: 21px;
@@ -1033,12 +1039,18 @@ span.icon-down-dir {
     position: relative;
     top: 4px;
 }
+span.icon-up-dir.active {
+    color: #ee3643;
+}
 span.icon-up-dir {
     font-size: 23px;
     line-height: 20px;
-    color: #ee3643;
+    color: #c6c2bd;
     position: relative;
     top: 4px;
+}
+.sorting span:hover {
+    color: black;
 }
 .list {
     font-size: 18px;
@@ -1115,10 +1127,15 @@ span.icon-up-dir {
 .pages li.active {
     background: #ee3643;
     color: white;
+    border: 1px solid #ee3643;
+}
 }
 .pages li:last-child {
     width: 108px;
     padding-left: 31px;
+}
+.pages li:hover {
+    border: 1px solid #bdc6ca;
 }
 a.btn-page {
     text-decoration: none;
@@ -1192,6 +1209,9 @@ a.btn-link {
     text-decoration: none;
     font-weight: normal;
 }
+a.btn-link:hover {
+    text-decoration: underline;
+}
 .creator {
     float: right;
     margin-right: 14px;
@@ -1207,6 +1227,9 @@ a.loged {
     text-decoration: none;
     margin-top: 3px;
     padding: 11px 28px 0px 21px;
+}
+a.loged:hover {
+    color: #ee3643;
 }
 .user_block_catalog {
     font-size: 0;
@@ -1260,6 +1283,9 @@ a.btn-case {
     margin-top: 8px;
     color: #3f4e66;
     margin-right: 13px;
+}
+a.btn-case:hover {
+    color: #ee3643;
 }
 .list {
     font-size: 18px;
