@@ -389,12 +389,6 @@ span.icon.icon-phone {
     background-color: #cc79d1;
     float: right;
 }
-.slides {
-    float: left;
-    min-width: 622px;
-    min-height: 266px;
-    margin-top: 20px;
-}
 .block4{
     background-color: #85d179;
     float: right;
@@ -1619,8 +1613,7 @@ h2.info-head {
     border: 3px solid white;
     border-radius: 50%;
     cursor: pointer;
-}
-position: absolute;
+    position: absolute;
     bottom: 95px;
     left: 50%;
 }
