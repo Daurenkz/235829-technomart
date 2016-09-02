@@ -637,7 +637,7 @@ a.btn:after {
   width: 60px;
   height: 60px;
   content: "";
-  background: url("img/new-flag.png") no-repeat 0 0;
+  background: url(new-flag.png);
 }
 section.manufacturer {
     margin-bottom: 65px;
