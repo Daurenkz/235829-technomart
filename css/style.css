@@ -1068,6 +1068,7 @@ h2.made-top {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 0;
 }
 .manufacturers-form label {
     font-size: 15px;
@@ -1075,8 +1076,8 @@ h2.made-top {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
     float: left;
-    margin-top: 9px;
-    margin-right: 14px;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 .manufacturers-form span {
     font-size: 28px;
@@ -1092,6 +1093,8 @@ h2.made-top {
     float: left;
     color: black;
     font-size: 16px;
+    position: relative;
+    border-top: 1px solid #e5e5e5;
 }
 h2.power-top {
     font-size: 17px;
@@ -1693,11 +1696,60 @@ h2.power-type {
     font-family: "PT Sans";
     text-transform: uppercase;
     margin-left: 33px;
-    margin-right: 74px;
+    margin-right: 72px;
     font-weight: normal;
+    margin-top: 0px;
 }
 #btn-1:checked ~ .power-radio label[for="btn-1"],
 #btn-2:checked ~ .power-radio label[for="btn-2"] {
   background: url(.icon-circle-dot.jpg)
 }
+.modal-content {
+  position: absolute;
+  top: 120px;
+  left: 50%;
 
+  width: 620px;
+  height: 425px;
+  margin-left: -230px;
+
+  color: #000000;
+
+  background: white;
+}
+.modal-content-close {
+  position: absolute;
+  top: 0;
+  right: -34px;
+
+  width: 22px;
+  height: 22px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.modal-content-close::before,
+.modal-content-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+  background-color: #d0d0d0;
+  border-radius: 1px;
+}
+
+.modal-content-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-content-close::after {
+  transform: rotate(-45deg);
+}
