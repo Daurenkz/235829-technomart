@@ -309,6 +309,9 @@ span.icon.icon-phone {
     display: inline-block;
     padding: 14px 0;
 }
+.main-navigation li:hover {
+    background: #293449;
+}
 .main-navigation a:hover {
     background: #293449;
 }
@@ -610,6 +613,7 @@ li .actions {
     font-family: "PT Sans", "Arial", sans-serif;
     position: relative;
     margin-right: 8px;
+    text-align: center;
 }
 a.btn:after {
     position: absolute;
@@ -737,6 +741,7 @@ li.service-active {
     width: 640px;
     min-height: 283px;
     float: right;
+    position: relative;
 }
 .delivery-text {
     width: 296px;
@@ -745,7 +750,10 @@ li.service-active {
 }
 .delivery img {
     float: right;
-    width: 339px;
+    width: 468px;
+    position: absolute;
+    left: 171px;
+    top: 20px;
 }
 .delivery-text p.head-delivery {
     font-size: 36px;
@@ -1035,8 +1043,14 @@ form.filter {
 }
 .price {
     width: 220px;
-    height: 190px;
-    background-color: antiquewhite;
+    min-height: 45px;
+    font-size: 17px;
+    line-height: 30px;
+    color: black;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
 }
    .manufacturers-form {
     width: 220px;
@@ -1044,7 +1058,7 @@ form.filter {
     float: left;
     color: black;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 24px;
     border-top: 1px solid #e5e5e5;
 }
 h2.made-top {
@@ -1059,9 +1073,7 @@ h2.made-top {
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
-}
-.filter input {
-    display: table;
+    display: block;
 }
 .power {
     width: 220px;
@@ -1084,6 +1096,7 @@ h2.power-top {
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
     font-weight: normal;
+    display: block;
 }
 .about-product {
     background: #f2f6f8;
@@ -1205,6 +1218,7 @@ span.icon-up-dir {
     font-family: "PT Sans", "Arial", sans-serif;
     line-height: 20px;
     font-weight: bold;
+    text-align: center;
 }
 .list li:nth-child(3n+3) p {
     margin-bottom: 41px;
@@ -1471,29 +1485,25 @@ h2.info-head {
 .range-filter {
     width: 220px;
 }
-
 .range-controls {
     position: relative;
     height: 41px;
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 9px;
     border-radius: 5px;
-    background: #f1f1f1;
+    background: #f7f3ec;
 }
-
 .range-controls .scale {
     height: 2px;
     background: #d7dcde;
 }
-
 .range-controls .bar {
     width: 80%;
     height: 2px;
     background: #00ca74;
 }
-
 .range-controls .toggle {
     position: absolute;
     top: 30px;
@@ -1509,37 +1519,37 @@ h2.info-head {
 .range-controls .toggle-min {
     left: 20px;
 }
-
 .range-controls .toggle-max {
     left: 160px;
 }
-
 .price-controls {
     font-size: 0;
 }
-
 .price-controls label {
     font-size: 16px;
     display: inline-block;
-    width: 50%;
+    width: 43%;
 }
-
+label.min-price {
+    margin-right: 30px;
+}
 .max-price { 
-    text-align: right;
+    text-align: center;
 }
-
-.price-controls input { 
-    font-family: 'Roboto', 'Arial', sans-serif;
+.price-controls input {
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 16px;
     width: 60px;
-    margin-left: 10px;
+    margin-left: 0px;
     padding: 8px 10px;
     text-align: center;
     color: #283136;
     border: none;
     border-radius: 5px;
     outline: none;
-    background: #f1f1f1;
+    background: #f7f3ec;
+    padding-left: 19px;
+    padding-right: 16px;
 }
 .slider {
     width: 621px;
@@ -1635,14 +1645,46 @@ h2.info-head {
     background: #ee3643;
 }
 #btn-1:checked ~ .slides .slide:nth-child(1) {
-  left: 0;
+    left: 0;
 }
 #btn-1:checked ~ .slides .slide:nth-child(2) {
-  left: 880px;
+    left: 880px;
 }
 #btn-2:checked ~ .slides .slide:nth-child(1) {
-  left: -880px;
+    left: -880px;
 }
 #btn-2:checked ~ .slides .slide:nth-child(2) {
-  left: 0;
+    left: 0;
 }
+
+
+
+.power-radio label {
+    display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+
+  vertical-align: top;
+
+  background: #ffffff;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.power input[type="radio"] {
+    display: none;
+}
+.power-radio label {
+    display: block;
+    width: 25px;
+    height: 26px;
+    margin: 0 3px;
+    vertical-align: top;
+    background: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
