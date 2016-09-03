@@ -1747,8 +1747,8 @@ h2.power-type {
 .modal-content-close::after {
   transform: rotate(-45deg);
 }
-.modal-main {
-    margin-bottom: 71px;
+form.feedback {
+    margin-top: 55px;
 }
 h2.modal-title {
     font-size: 18px;
@@ -1756,11 +1756,33 @@ h2.modal-title {
     font-family: "Cuprum", "Arial", sans-serif;
     font-weight: normal;
     color: black;
+    margin-right: 153px;
+    float: left;
+    margin-top: 44px;
+}
+h2.modal-title.third {
+    margin-top: 10px;
 }
 .modal-container {
     width: 460px;
     margin: 0 auto;
-    margin-top: 55px;
+}
+input.your-name, 
+input.your-email {
+    width: 220px;
+    height: 38px;
+    text-align: center;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+input.your-name {
+    margin-right: 22px;
+}
+input.message {
+    width: 460px;
+    height: 115px;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
 }
 .modal-footer {
     background: #f1f1f1;
@@ -1768,4 +1790,18 @@ h2.modal-title {
     padding-bottom: 2px;
     display: block;
     padding-top: 41px;
+    margin-top: 22px;
+}
+button.btn-send {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #ee3643;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Cuprum", "Arial", sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 3px;
 }
