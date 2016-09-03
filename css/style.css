@@ -761,12 +761,12 @@ li.service-active {
     left: 171px;
     top: 20px;
 }
-.guarantee .market img,
-.credit .market img {
+.guarantee.market img,
+.credit.market img {
     float: right;
     width: 389px;
     position: absolute;
-    left: 219px;
+    left: 240px;
     top: -2px;
 }
 .market-text p.head-market {
@@ -785,6 +785,10 @@ li.service-active {
     font-family: "PT Sans", "Arial", sans-serif;
     font-weight: normal;
     line-height: 24px;
+}
+.guarantee,
+.credit{
+    display: none;
 }
 .company {
     width: 520px;
@@ -1702,6 +1706,18 @@ label.min-price {
     top: 48px;
     left: -12px;
 }
+.power input[type="submit"] {
+    outline: none;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    border: 1px solid #e5e5e5;
+    background: white;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 13px 44px;
+    text-transform: uppercase;
+}
 h2.power-type {
     display: inline-block;
     font-size: 14px;
@@ -1713,9 +1729,15 @@ h2.power-type {
     font-weight: normal;
     margin-top: 0px;
 }
+span.icon.icon-circle {
+    position: relative;
+    left: -6px;
+    top: -2px;
+}
 #btn-1:checked ~ .power-radio label[for="btn-1"],
 #btn-2:checked ~ .power-radio label[for="btn-2"] {
-  background: url(.icon-circle-dot.jpg)
+    background: url(.icon-circle-dot.jpg) no-repeat;
+    opacity: 0.6;
 }
 .modal-content {
     position: absolute;
