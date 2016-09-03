@@ -738,25 +738,38 @@ li.service-active {
 .service-active a {
     color: #32425c;
 }
-.delivery {
+.market {
     width: 640px;
     min-height: 283px;
     float: right;
     position: relative;
 }
-.delivery-text {
+.market-text {
     width: 296px;
     height: 150px;
     float: left;
 }
-.delivery img {
+.guarantee .market-text {
+    width: 395px;
+    height: 150px;
+    float: left;
+}
+.market img {
     float: right;
     width: 468px;
     position: absolute;
     left: 171px;
     top: 20px;
 }
-.delivery-text p.head-delivery {
+.guarantee .market img,
+.credit .market img {
+    float: right;
+    width: 389px;
+    position: absolute;
+    left: 219px;
+    top: -2px;
+}
+.market-text p.head-market {
     font-size: 36px;
     margin-bottom: 31px;
     color: #32425c;
@@ -765,7 +778,7 @@ li.service-active {
     margin-left: 18px;
     line-height: 24px;
 }
-.delivery-text p {
+.market-text p {
     font-size: 13px;
     margin-left: 21px;
     margin-top: 2px;
@@ -1715,6 +1728,7 @@ h2.power-type {
     background: white;
     border-top: 7px solid #ee3643;
     box-shadow: 0 2px 30px black;
+    display: none;
 }
 .modal-content-close {
     position: absolute;
@@ -1747,18 +1761,19 @@ h2.power-type {
 .modal-content-close::after {
   transform: rotate(-45deg);
 }
-form.feedback {
-    margin-top: 55px;
-}
 h2.modal-title {
     font-size: 18px;
     line-height: 18px;
     font-family: "Cuprum", "Arial", sans-serif;
     font-weight: normal;
     color: black;
-    margin-right: 153px;
+    margin-right: 175px;
     float: left;
     margin-top: 44px;
+    margin-bottom: 10px;
+}
+h2.modal-title.second {
+    margin-right: 0;
 }
 h2.modal-title.third {
     margin-top: 10px;
@@ -1769,7 +1784,7 @@ h2.modal-title.third {
 }
 input.your-name, 
 input.your-email {
-    width: 220px;
+    width: 212px;
     height: 38px;
     text-align: center;
     border: 2px solid #d7dcde;
@@ -1780,9 +1795,10 @@ input.your-name {
 }
 input.message {
     width: 460px;
-    height: 115px;
+    height: 24px;
     border: 2px solid #d7dcde;
     border-radius: 3px;
+    padding-bottom: 86px;
 }
 .modal-footer {
     background: #f1f1f1;
@@ -1790,7 +1806,7 @@ input.message {
     padding-bottom: 2px;
     display: block;
     padding-top: 41px;
-    margin-top: 22px;
+    margin-top: 32px;
 }
 button.btn-send {
     width: 100%;
@@ -1805,3 +1821,26 @@ button.btn-send {
     padding: 10px;
     border-radius: 3px;
 }
+.modal-content-map {
+    width: 935px;
+    height: 442px;
+    background: white url("big-map.jpg") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 2000px;
+    margin-left: -468px;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+    z-index: 50;
+    display: none;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
