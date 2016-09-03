@@ -104,8 +104,8 @@
                    <div class="toggle toggle-max"></div>
                  </div>
                  <div class="price-controls">
-                   <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-                   <label class="max-price">до <input name="max-price" type="text" value="30000"></label>
+                   <label class="min-price"><input name="min-price" type="text" value="0"></label>
+                   <label class="max-price"><input name="max-price" type="text" value="30000"></label>
                  </div>
                </div>
                <div class="manufacturers-form">
@@ -123,15 +123,13 @@
               </div>
               <div class="power">
                 <h2 class="power-top">Питание:</h2>
-                <label>
-                <input type="radio" name="power" value="batery">
-                  <span class="icon icon-circle"></span>Аккумуляторные
-                </label>
-                <label>
-                  <input type="radio" name="power" value="circuit">
-                  <span class="icon icon-circle-dot"></span>Сетевые
-                </label>
+                <input type="radio" id="btn-1" name="power" value="batery" checked>
+                <input type="radio" id="btn-2" name="power" value="circuit">
                 <input type="submit" value="Показать">
+                <div class="power-radio">
+                    <label for="btn-1">Аккумуляторные</label>
+                    <label for="btn-2">Сетевые</label>
+                </div>
               </div>
             </form>
             <div class="products-catalog">
