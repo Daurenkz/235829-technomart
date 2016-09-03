@@ -1074,7 +1074,17 @@ h2.made-top {
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
-    display: block;
+    float: left;
+    margin-top: 9px;
+    margin-right: 14px;
+}
+.manufacturers-form span {
+    font-size: 28px;
+    line-height: 20px;
+    margin-right: 8px;
+}
+.manufacturers-form input {
+    display: none;
 }
 .power {
     width: 220px;
@@ -1657,36 +1667,19 @@ label.min-price {
 #btn-2:checked ~ .slides .slide:nth-child(2) {
     left: 0;
 }
-
-
-
-.power-radio label {
-    display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 3px;
-
-  vertical-align: top;
-
-  background: #ffffff;
-  border: 3px solid white;
-  border-radius: 50%;
-  cursor: pointer;
-}
 .power input[type="radio"] {
     display: none;
 }
 .power-radio label {
     display: block;
-    width: 19px;
-    height: 17px;
-    margin: 19px 0px;
+    width: 27px;
+    height: 26px;
+    margin: 11px 0px;
     vertical-align: top;
-    border: 3px solid white;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 18px;
 }
 .power-radio {
     position: absolute;
@@ -1699,8 +1692,9 @@ h2.power-type {
     line-height: 20px;
     font-family: "PT Sans";
     text-transform: uppercase;
-    margin-left: 19px;
+    margin-left: 33px;
     margin-right: 74px;
+    font-weight: normal;
 }
 #btn-1:checked ~ .power-radio label[for="btn-1"],
 #btn-2:checked ~ .power-radio label[for="btn-2"] {
