@@ -115,6 +115,9 @@ input[type="search"] {
     position: relative;
     margin-left: 40px;
     color: white;
+    font-size: 17px;
+    line-height: 18px;
+    font-family: "Cuprum", "Arial", sans-serif;
 }
 span.icon.icon-search {
     display: inline-block;
@@ -637,7 +640,7 @@ a.btn:after {
     width: 60px;
     height: 60px;
     content: "";
-    background: url(new-flag.png) no-repeat 0 0;
+    background: url("") no-repeat 0 0;
 }
 section.manufacturer {
     margin-bottom: 65px;
@@ -1088,13 +1091,16 @@ h2.made-top {
     margin-bottom: 0;
 }
 .manufacturers-form label {
+    float: left;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.manufacturers-form h3{
     font-size: 15px;
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
-    float: left;
-    margin-top: 10px;
-    margin-right: 15px;
+    display: inline-block;
 }
 .manufacturers-form span {
     font-size: 28px;
@@ -1731,7 +1737,7 @@ h2.power-type {
 }
 span.icon.icon-circle {
     position: relative;
-    left: -6px;
+    left: 1px;
     top: -2px;
 }
 #btn-1:checked ~ .power-radio label[for="btn-1"],
@@ -1751,6 +1757,21 @@ span.icon.icon-circle {
     border-top: 7px solid #ee3643;
     box-shadow: 0 2px 30px black;
     display: none;
+}
+.modal-main.catalog {
+    margin-top: 20px;
+}
+.modal-content.catalog {
+    position: absolute;
+    top: 411px;
+    left: 50%;
+    width: 620px;
+    height: 285px;
+    margin-left: -311px;
+    color: #000000;
+    background: white;
+    border-top: 7px solid #ee3643;
+    box-shadow: 0 2px 30px black;
 }
 .modal-content-close {
     position: absolute;
@@ -1789,7 +1810,7 @@ h2.modal-title {
     font-family: "Cuprum", "Arial", sans-serif;
     font-weight: normal;
     color: black;
-    margin-right: 175px;
+    margin-right: 169px;
     float: left;
     margin-top: 44px;
     margin-bottom: 10px;
@@ -1799,6 +1820,19 @@ h2.modal-title.second {
 }
 h2.modal-title.third {
     margin-top: 10px;
+}
+h2.done {
+    font-size: 30px;
+    display: inline-block;
+    line-height: 18px;
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-weight: normal;
+}
+.catalog img {
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: -18px;
 }
 .modal-container {
     width: 460px;
@@ -1813,10 +1847,10 @@ input.your-email {
     border-radius: 3px;
 }
 input.your-name {
-    margin-right: 22px;
+    margin-right: 16px;
 }
 input.message {
-    width: 460px;
+    width: 452px;
     height: 24px;
     border: 2px solid #d7dcde;
     border-radius: 3px;
@@ -1830,6 +1864,14 @@ input.message {
     padding-top: 41px;
     margin-top: 32px;
 }
+.modal-footer.catalog {
+    background: #f1f1f1;
+    height: 70px;
+    padding-bottom: 2px;
+    display: block;
+    padding-top: 41px;
+    margin-top: 54px;
+}
 button.btn-send {
     width: 100%;
     border: none;
@@ -1841,6 +1883,31 @@ button.btn-send {
     font-family: "Cuprum", "Arial", sans-serif;
     text-transform: uppercase;
     padding: 10px;
+    border-radius: 3px;
+}
+a.btn-to-order {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background: #ee3643;
+    padding: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 3px;
+}
+a.btn-buy {
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background: white;
+    padding: 12px;
+    padding-left: 45px;
+    padding-right: 42px;
     border-radius: 3px;
 }
 .modal-content-map {
