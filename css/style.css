@@ -640,7 +640,7 @@ a.btn:after {
     width: 60px;
     height: 60px;
     content: "";
-    background: url("") no-repeat 0 0;
+    background: url(../img/new-flag.png) no-repeat 0 0;
 }
 section.manufacturer {
     margin-bottom: 65px;
@@ -1650,11 +1650,11 @@ label.min-price {
     padding: 11px 17px 9px 51px;
 }
 .slide:nth-child(1) {
-    background-image: url(man.jpg);
+    background-image: url(../img/man.jpg);
 }
 
 .slide:nth-child(2) {
-    background-image: url(man2.jpg);
+    background-image: url(../img/man2.jpg);
 }
 .slide {
     display: none;
@@ -1755,7 +1755,7 @@ span.icon.icon-circle {
 }
 #btn-1:checked ~ .power-radio label[for="btn-1"],
 #btn-2:checked ~ .power-radio label[for="btn-2"] {
-    background: url(.icon-circle-dot.jpg) no-repeat;
+    background: url(../img/.icon-circle-dot.jpg) no-repeat;
     opacity: 0.6;
 }
 .modal-content {
@@ -1926,7 +1926,7 @@ a.btn-buy {
 .modal-content-map {
     width: 935px;
     height: 442px;
-    background: white url("big-map.jpg") no-repeat;
+    background: white url("../img/big-map.jpg") no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
