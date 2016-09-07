@@ -1095,7 +1095,7 @@ h2.made-top {
     margin-top: 7px;
     margin-right: 60px;
 }
-.manufacturers-form p {
+.manufacturers-form label {
     font-size: 15px;
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
