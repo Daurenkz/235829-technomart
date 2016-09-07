@@ -1447,15 +1447,16 @@ a.btn-link:hover {
 }
 a.loged {
     background: white;
-    min-width: 250px;
-    height: 34px;
+    min-width: 232px;
+    height: 33px;
     float: right;
     color: black;
     font-size: 21px;
     line-height: 18px;
     text-decoration: none;
     margin-top: 3px;
-    padding: 11px 28px 0px 21px;
+    padding: 13px 44px 0px 22px;
+    text-align: center;
 }
 a.loged::before {
     content: "👨";
@@ -1464,7 +1465,7 @@ a.loged::before {
     line-height: 18px;
     opacity: 0.2;
     position: absolute;
-    left: 17px;
+    left: 16px;
 }
 a.loged:hover {
     color: #ee3643;
@@ -1495,6 +1496,9 @@ a.logout:before {
     font-size: 22px;
     line-height: 18px;
     opacity: 0.2;
+    position: absolute;
+    left: 17px;
+    top: 2px;
 }
 span.point {
     display: inline-block;
@@ -1522,7 +1526,7 @@ a.btn-case {
     font-size: 16px;
     line-height: 18px;
     padding-left: 19px;
-    margin-top: 8px;
+    margin-top: 6px;
     color: #3f4e66;
     margin-right: 13px;
 }
