@@ -1136,17 +1136,29 @@ h2.power-top {
     margin-top: 17px;
     margin-bottom: 8px;
 }
-
-.power label {
+.power p {
     font-size: 14px;
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
-    font-weight: normal;
-    display: block;
-    position: relative;
-    top: -8px;
-    margin-left: 5px;
+    display: inline-block;
+    margin-right: 48px;
+}
+.power span {
+    font-size: 28px;
+    line-height: 20px;
+}
+.power input[type="submit"] {
+    outline: none;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    border: 1px solid #e5e5e5;
+    background: white;
+    display: inline-block;
+    margin-top: 68px;
+    padding: 9px 38px;
+    text-transform: uppercase;
 }
 .about-product {
     background: #f2f6f8;
@@ -1231,18 +1243,30 @@ span.icon-up-dir {
     margin-left: 20px;
     position: relative;
 }
-.list .actions {
-    display: none;
-}
-.list li:hover .actions {
-    display: block;
-}
-
 .list li:nth-child(3n+1) {
     margin-left: 7px;
 }
 .list li:nth-child(3n+3) {
     margin-right: 0;
+}
+.list img {
+    margin-bottom: 36px;
+    z-index: 20;
+}
+.list li:nth-child(2) img {
+    margin-top: 2px;
+    margin-bottom: 38px;
+    margin-right: 18px;
+}
+.list li:nth-child(3) img {
+    margin-top: 2px;
+    margin-right: 1px;
+    margin-bottom: 34px;
+}
+.list li:last-child img {
+    margin-top: 8px;
+    margin-right: 35px;
+    margin-bottom: 28px;
 }
 .list li:nth-child(3n+1) img {
     margin-top: 8px;
@@ -1271,7 +1295,36 @@ span.icon-up-dir {
     text-align: center;
 }
 .list li:nth-child(3n+3) p {
-    margin-bottom: 41px;
+    margin-bottom: 39px;
+}
+.list li:nth-child(3) p {
+    margin-top: 4px;
+    margin-bottom: 39px;
+}
+.list li:last-child p {
+    margin-bottom: 39px;
+    margin-top: 4px;
+}
+.list del {
+    color: #999999;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 9px;
+    font-size: 17px;
+}
+.list .actions {
+    display: none;
+}
+.list li:hover .actions {
+    display: block;
+}
+
+.list li:hover {
+    box-shadow: 0 0 25px #b8bbc2;
+}
+.list .active .actions {
+    display: block;
 }
 .pages {
     display: inline-block;
@@ -1298,9 +1351,7 @@ span.icon-up-dir {
     color: white;
     border: 1px solid #ee3643;
 }
-}
 .pages li:last-child {
-    width: 108px;
     padding-right: 30px;
     padding-left: 32px;
 }
@@ -1412,6 +1463,7 @@ a.loged:active {
     width: 300px;
     display: inline-block;
     height: 79px;
+    position: relative;
 }
 span.icon.icon-user {
     display: inline-block;
@@ -1427,6 +1479,13 @@ span.icon.icon-logout {
     display: inline-block;
     position: relative;
     left: 33px;
+}
+a.logout {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 231px;
+    color: black;
 }
 span.point {
     display: inline-block;
@@ -1460,57 +1519,6 @@ a.btn-case {
 }
 a.btn-case:hover {
     color: #ee3643;
-}
-.list {
-    font-size: 18px;
-    color: black;
-    margin-bottom: 16px;
-    display: inline-block;
-}
-.list del {
-    color: #999999;
-    margin-top: 10px;
-    display: inline-block;
-    margin-left: 4px;
-    margin-bottom: 9px;
-    font-size: 17px;
-}
-.list p {
-    font-size: 18px;
-    display: block;
-    width: 160px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "PT Sans", "Arial", sans-serif;
-    line-height: 20px;
-    font-weight: bold;
-}
-.list li:last-child p {
-    margin-bottom: 39px;
-}
-.list img {
-    margin-bottom: 36px
-}
-.list li:hover {
-    box-shadow: 0 0 25px #b8bbc2;
-}
-.list li:nth-child(2) img {
-    margin-top: 2px;
-    margin-bottom: 38px;
-    margin-right: 18px;
-}
-.list li:nth-child(3) img {
-    margin-top: 2px;
-    margin-right: 1px;
-    margin-bottom: 34px;
-}
-.list li:last-child img {
-    margin-top: 8px;
-    margin-right: 35px;
-    margin-bottom: 28px;
-}
-.list .active .actions {
-    display: block;
 }
 .info {
     margin-bottom: 68px;
@@ -1705,58 +1713,6 @@ label.min-price {
 }
 #btn-2:checked ~ .slides .slide:nth-child(2) {
     left: 0;
-}
-.power input[type="radio"] {
-    display: none;
-}
-.power-radio label {
-    display: block;
-    width: 27px;
-    height: 26px;
-    margin: 11px 0px;
-    vertical-align: top;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 28px;
-    line-height: 18px;
-}
-.power-radio {
-    position: absolute;
-    top: 48px;
-    left: -12px;
-}
-.power input[type="submit"] {
-    outline: none;
-    font-size: 13px;
-    line-height: 18px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    border: 1px solid #e5e5e5;
-    background: white;
-    display: inline-block;
-    margin-top: 68px;
-    padding: 9px 38px;
-    text-transform: uppercase;
-}
-h2.power-type {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 20px;
-    font-family: "PT Sans";
-    text-transform: uppercase;
-    margin-left: 33px;
-    margin-right: 72px;
-    font-weight: normal;
-    margin-top: 6px;
-}
-span.icon.icon-circle {
-    position: relative;
-    left: 1px;
-    top: -2px;
-}
-#btn-1:checked ~ .power-radio label[for="btn-1"],
-#btn-2:checked ~ .power-radio label[for="btn-2"] {
-    background: url(../img/.icon-circle-dot.jpg) no-repeat;
-    opacity: 0.6;
 }
 .modal-content {
     position: absolute;
