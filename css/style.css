@@ -1094,17 +1094,11 @@ h2.made-top {
     float: left;
     margin-top: 7px;
     margin-right: 60px;
-}
-.manufacturers-form label {
     font-size: 15px;
     line-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
     text-transform: uppercase;
-    display: inline-block;
     font-weight: normal;
-    margin: 0;
-    position: relative;
-    left: -5px;
 }
 .manufacturers-form span {
     font-size: 28px;
