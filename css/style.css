@@ -1457,6 +1457,15 @@ a.loged {
     margin-top: 3px;
     padding: 11px 28px 0px 21px;
 }
+a.loged::before {
+    content: "👨";
+    font-family: "symbols-technomart";
+    font-size: 18px;
+    line-height: 18px;
+    opacity: 0.2;
+    position: absolute;
+    left: 17px;
+}
 a.loged:hover {
     color: #ee3643;
 }
@@ -1472,27 +1481,20 @@ a.loged:active {
     height: 79px;
     position: relative;
 }
-span.icon.icon-user {
-    display: inline-block;
-    position: relative;
-    right: 10px;
-    font-size: 18px;
-    line-height: 18px;
-    bottom: 2px;
-}
-span.icon.icon-logout {
-    font-size: 22px;
-    line-height: 18px;
-    display: inline-block;
-    position: relative;
-    left: 33px;
-}
 a.logout {
     display: inline-block;
     position: absolute;
     top: 14px;
-    left: 231px;
+    left: 253px;
     color: black;
+    text-decoration: none;
+}
+a.logout:before {
+    content: "\241b";
+    font-family: "symbols-technomart";
+    font-size: 22px;
+    line-height: 18px;
+    opacity: 0.2;
 }
 span.point {
     display: inline-block;
