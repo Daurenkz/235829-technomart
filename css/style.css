@@ -1143,6 +1143,8 @@ h2.power-top {
     text-transform: uppercase;
     display: inline-block;
     margin-right: 48px;
+    margin-left: 35px;
+    margin-bottom: 15px;
 }
 .power span {
     font-size: 28px;
@@ -1156,9 +1158,19 @@ h2.power-top {
     border: 1px solid #e5e5e5;
     background: white;
     display: inline-block;
-    margin-top: 68px;
+    margin-top: 64px;
     padding: 9px 38px;
     text-transform: uppercase;
+}
+span.icon.icon-circle-dot {
+    position: absolute;
+    top: 56px;
+    left: -7px;
+}
+span.icon.icon-circle {
+    position: absolute;
+    top: 97px;
+    left: -7px;
 }
 .about-product {
     background: #f2f6f8;
@@ -1224,7 +1236,7 @@ span.icon-up-dir {
 .list {
     font-size: 18px;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     display: inline-block;
 }
 .list ul:after {
@@ -1298,12 +1310,10 @@ span.icon-up-dir {
     margin-bottom: 39px;
 }
 .list li:nth-child(3) p {
-    margin-top: 4px;
     margin-bottom: 39px;
 }
 .list li:last-child p {
     margin-bottom: 39px;
-    margin-top: 4px;
 }
 .list del {
     color: #999999;
@@ -1690,6 +1700,23 @@ label.min-price {
     width: 200px;
     margin-left: -100px;
     text-align: center;
+}
+.slider-pointers {
+    position: absolute;
+}
+.point-left:before {
+    content: url(../img/icon-left.png);
+    position: absolute;
+    top: 115px;
+    left: 25px;
+    cursor: pointer;
+}
+.point-right:before {
+    content: url(../img/icon-right.png);
+    position: absolute;
+    top: 115px;
+    left: 575px;
+    cursor: pointer;
 }
 #btn-1:checked ~ .slides .slide:nth-child(1) {
     display: block;
